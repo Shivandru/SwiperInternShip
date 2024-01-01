@@ -1,0 +1,39 @@
+#mainNav{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    background-color: #2C5282;
+    align-items: center;
+    position: fixed;
+    top: 0rem;
+    z-index: 3;
+}
+#logo{
+    
+    width: 20%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.responsiveNav{
+    display: flex;
+    justify-content: space-between;
+}
+#navButton{
+    margin-right: 0rem;
+}
+#subNav{
+    font-size: 0.9rem;
+    width:80%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#subNavButton{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
